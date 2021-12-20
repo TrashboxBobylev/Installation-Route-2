@@ -1,0 +1,13 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:generator_cosmilite",
+	"time": 380,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "contenttweaker:cosmilite_ingot",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

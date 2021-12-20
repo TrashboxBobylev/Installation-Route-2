@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "contenttweaker:block/purified_chalcocite_ore"
+  }
+}

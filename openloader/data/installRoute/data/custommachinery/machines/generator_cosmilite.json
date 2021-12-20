@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Cosmilite Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_cosmilite"
+    },
+    "running": {
+		"block": "installroute:machine/generate_cosmilite",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "block.contenttweaker.legacy_block_1": "Otherworldy Metal Plate",
+  "block.contenttweaker.legacy_block_2": "Otherworldy Smooth Metal Plate",
+  "block.contenttweaker.legacy_block_3": "Otherworldy Glass",
+  "block.contenttweaker.legacy_block_4": "Otherworldy Light Pavement",
+  "block.contenttweaker.legacy_block_5": "Otherworldy Dark Pavement",
+  "block.contenttweaker.legacy_block_6": "Otherworldy Patterned Metal",
+  
+  "block.contenttweaker.cosmilite_block": "Block of Cosmilite",
+  "block.contenttweaker.infernium_block": "Block of Infernium",
+  "block.contenttweaker.ferozium_block": "Block of Ferozium",
+  "block.contenttweaker.magnesium_block": "Block of Magnesium",
+  "block.contenttweaker.astratite_block": "Block of Astratite",
+  "block.contenttweaker.otherworldy_block": "Block of Otherworldy Nickel",
+  
+  "block.contenttweaker.magnetite_ore": "Magnetite Ore",
+  "block.contenttweaker.chalcocite_ore": "Chalcocite Ore",
+  "block.contenttweaker.cassiterite_ore": "Cassiterite Ore",
+  "block.contenttweaker.galena_ore": "Galena Ore",
+  "block.contenttweaker.sheldonite_ore": "Sheldonite Ore",
+  
+  "block.contenttweaker.purified_magnetite_ore": "Purified Magnetite Ore",
+  "block.contenttweaker.purified_chalcocite_ore": "Purified Chalcocite Ore",
+  "block.contenttweaker.purified_cassiterite_ore": "Purified Cassiterite Ore",
+  "block.contenttweaker.purified_galena_ore": "Purified Galena Ore",
+  "block.contenttweaker.purified_sheldonite_ore": "Purified Sheldonite Ore",
+  
+  "block.contenttweaker.dried_living_matter": "Dried Living Matter Block",
+  "block.contenttweaker.living_matter": "Living Matter Block",
+  
+  "item.contenttweaker.dried_matter": "Dried Living Matter",
+  "item.contenttweaker.bifrost_flower": "Bifrost Flower",
+  "item.contenttweaker.rf_out_coil": "Redstone Catalyst Coil",
+  
+  "item.contenttweaker.magnetite_dust": "Magnetite Dust",
+  "item.contenttweaker.chalcocite_dust": "Chalcocite Dust",
+  "item.contenttweaker.cassiterite_dust": "Cassiterite Dust",
+  "item.contenttweaker.galena_dust": "Galena Dust",
+  "item.contenttweaker.sheldonite_dust": "Sheldonite Dust",
+  
+  "item.contenttweaker.infernium": "Infernium Ingot",
+  "item.contenttweaker.ferozium": "Ferozium Ingot",
+  "item.contenttweaker.magnesium": "Magnesium Ingot",
+  "item.contenttweaker.astratite": "Astratite Ingot",
+  
+  "item.contenttweaker.machine_efficiency_augment": "Terra Efficency",
+  "item.contenttweaker.machine_speed_augment": "Terra Flux",
+  
+  "item.contenttweaker.cosmilite_ingot": "Cosmilite Ingot", 
+  "item.contenttweaker.otherworldy_ingot": "Otherworldy Nickel Ingot",
+  
+  "fluid.contenttweaker.heavy_water": "Terrarified Water",
+  "item.contenttweaker.heavy_water_bucket": "Bucket of Terrarified Water",
+  "fluid.contenttweaker.blood": "Bloody Elixir",
+  "item.contenttweaker.blood_bucket": "Bucket of Bloody Elixir",
+  "fluid.contenttweaker.warp": "Warped Essence",
+  "item.contenttweaker.warp_bucket": "Bucket of Warped Essence",
+  "fluid.contenttweaker.heated_water": "Heated Water",
+  "item.contenttweaker.heated_water_bucket": "Bucket of Heated Water"
+}

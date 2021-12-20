@@ -1,0 +1,343 @@
+{
+	id: "68223E329A53E0F7"
+	group: "4E7B7C8E7535E01C"
+	order_index: 0
+	filename: "part_1_fallout_to_zero"
+	title: "Part 1: Fallout to Zero"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Where am I again?"
+			icon: "minecraft:music_disc_11"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "When anything goes wrong, it will go wrong HARD"
+			description: [
+				"Looks like you got back in time."
+				""
+				"Touching those weird sparks was not the best idea."
+			]
+			hide_text_until_complete: true
+			size: 2.0d
+			id: "76700A5CAA2C244A"
+			tasks: [{
+				id: "57B0B503FE953F3B"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "10AB5221284A1B58"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_wood"
+						}
+					}
+				}
+				{
+					id: "2122CD9918F1F66A"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_cobble"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Eternal Darkness"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Light the box"
+			description: [
+				"All machines are gone, together with sun..."
+				""
+				"This void is very dark, any spark of light would be appreciated right now,"
+			]
+			dependencies: ["76700A5CAA2C244A"]
+			id: "30512DE5EB8053AD"
+			tasks: [{
+				id: "283A7E7DAB82C9F0"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "4F0BB22B68739FF6"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_iron"
+						}
+					}
+				}
+				{
+					id: "2C9FED5598168B79"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_copper"
+						}
+					}
+				}
+				{
+					id: "08A85A933E24C628"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_tin"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Important Improvement"
+			x: -0.5d
+			y: -6.5d
+			subtitle: "Create 2x furnace"
+			description: [
+				"This furnace can speed-up the process of smelting familiar ores."
+				""
+				"Yes, this is very good device despite being made from 3 iron."
+			]
+			dependencies: ["30512DE5EB8053AD"]
+			id: "136788664853EB55"
+			tasks: [{
+				id: "0F3409418564BB60"
+				type: "item"
+				item: "minecraft:blast_furnace"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0A88DA37BB7C5801"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_matter"
+						}
+					}
+				}
+				{
+					id: "34645AD5AAC14F43"
+					type: "item"
+					item: {
+						id: "botania:lexicon"
+						Count: 1b
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+				}
+				{
+					id: "788DF8D5D4AB4143"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "456F0C0D4F17412A"
+					type: "item"
+					item: "botania:grass_seeds"
+				}
+			]
+		}
+		{
+			title: "Planting Without Zombies"
+			icon: "botania:pure_daisy"
+			x: 2.0d
+			y: -7.5d
+			subtitle: "Recreate Botania from living matter"
+			description: [
+				"Ah, Bifrost petals and bone meal again. Like it was just pulverizing stone by hand and preparing flowers for mana production..."
+				""
+				"What times they were."
+				""
+			]
+			dependencies: ["136788664853EB55"]
+			id: "24BB2F7B79793C2A"
+			tasks: [
+				{
+					id: "21C21FDA08E146DB"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "27EBABE552D01B1C"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+			]
+		}
+		{
+			title: "The Most Important Thing in Modded"
+			x: 4.5d
+			y: -6.5d
+			subtitle: "Create pulverzing machine"
+			description: [
+				"Creating RF machine is no easy feat, but you already know how to do that."
+				""
+				"Just need a bit of alchemy and redstone from levers."
+			]
+			dependencies: ["24BB2F7B79793C2A"]
+			id: "6FADC3D6B60B1A53"
+			tasks: [{
+				id: "13F706FD07DF1239"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "2EF2D7AB8C24E54F"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_lead"
+						}
+					}
+				}
+				{
+					id: "5A7ADB04DCC5101C"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:generator_nickel"
+						}
+					}
+				}
+				{
+					id: "0FA3304D8EDD5AE2"
+					type: "item"
+					item: "botania:ender_air_bottle"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Weird Magic"
+			icon: "botania:runic_altar"
+			x: 5.5d
+			y: -3.5d
+			subtitle: "Create Runic Altar"
+			description: [
+				"We all know how much sense those runes make with random items for runes and stuff."
+				""
+				"At least crisis will be over once more."
+			]
+			dependencies: ["6FADC3D6B60B1A53"]
+			id: "7E1E2A11A3538F59"
+			tasks: [
+				{
+					id: "1BFB5FB94B9BB221"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "29D860E3F3060EAB"
+					type: "item"
+					title: "Any #botania:runes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:runes"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Basis of Alchemistry"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Create any elemental ingot"
+			description: [
+				"Apatite seems to be oddly fitting as basis for light and versatile alloys."
+				""
+				"They could be useful for some more sophisticated machines."
+			]
+			dependencies: ["7E1E2A11A3538F59"]
+			id: "19B551AB6564C2AB"
+			tasks: [{
+				id: "64547AEB94B20375"
+				type: "item"
+				title: "Any Elemental Ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/elemental"
+					}
+				}
+			}]
+		}
+		{
+			title: "Terra Conjuration"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Create Terrasteel"
+			description: [
+				"The magic in this box is very faint but with enough earthen energy it can be used to create Terrasteel in unusual way."
+				""
+				"This ingot will be needed for a lot of stuff, so automation is advised."
+			]
+			dependencies: [
+				"19B551AB6564C2AB"
+				"76700A5CAA2C244A"
+			]
+			id: "511DACF47A86CF85"
+			tasks: [{
+				id: "2B16F3F22780A399"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			title: "Cosmic Power"
+			x: 2.0416666666666643d
+			y: -4.528571428571411d
+			shape: "diamond"
+			subtitle: "Construct Cosmilite Fabricator and obtain Cosmilite from it"
+			description: ["(This is the end for demo. Stay tuned for Part 2!)"]
+			dependencies: ["511DACF47A86CF85"]
+			size: 1.5d
+			id: "4D7521BBC23C4E2A"
+			tasks: [{
+				id: "7846F80B34F55BBE"
+				type: "item"
+				item: "contenttweaker:cosmilite_ingot"
+			}]
+		}
+	]
+}

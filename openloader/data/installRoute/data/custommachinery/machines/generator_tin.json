@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Cassiterite Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_tin"
+    },
+    "running": {
+		"block": "installroute:machine/generate_tin",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

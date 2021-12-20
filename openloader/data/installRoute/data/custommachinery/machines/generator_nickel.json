@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Sheldonite Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_nickel"
+    },
+    "running": {
+		"block": "installroute:machine/generate_nickel",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

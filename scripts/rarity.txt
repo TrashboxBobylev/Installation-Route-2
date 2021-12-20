@@ -1,0 +1,127 @@
+import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.util.text.MCStyle;
+import crafttweaker.api.tag.TagManager;
+import crafttweaker.api.item.IngredientAny;
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.MCItemDefinition;
+ 
+import stdlib.List;
+ 
+var Tier1 = [0x00AA00, 0x2E8C2E];
+var Tier2 = [0x0AAAA, 0x3A9191];
+var Tier3 = [0x55FF55, 0x56B856];
+var Tier4 = [0xFF5555, 0xD65454];
+var Tier5 = [0xFFFF55, 0xE6E645];
+var Tier6 = [0xAA00AA, 0x8F358F];
+var Tier7 = [0x0AA, 0x3D3D80];
+var Tier8 = [0xFF55FF, 0xB01CB0];
+var Tier9 = [0x4c4461, 0x3e374f];
+
+<tag:items:crafttweaker:tier1>.add([
+	<item:botania:manasteel_ingot>,
+	<item:contenttweaker:dried_matter>,
+	<item:contenttweaker:living_matter>,
+	<item:contenttweaker:bifrost_flower>,
+	<item:botania:apothecary_default>,
+	<item:botania:endoflame>, 
+	<item:botania:hydroangeas>, <item:botania:mana_string>, <item:botania:manaweave_cloth>,
+	<item:botania:manastar>, <item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:botania:manasteel_nugget>, <item:botania:manasteel_block>,
+	<item:botania:pure_daisy>, <item:botania:livingwood_twig>, <item:botania:mana_powder>, <item:botania:mana_pool>, <item:botania:redstone_root>, 
+	<item:botania:livingwood>, <item:botania:livingwood_planks>, <item:botania:mossy_livingwood_planks>, <item:botania:framed_livingwood>,
+	<item:botania:livingrock>, <item:botania:livingrock_bricks>, <item:botania:chiseled_livingrock_bricks>, <item:botania:cracked_livingrock_bricks>,
+	<item:botania:mossy_livingrock_bricks>, <item:botania:pattern_framed_livingwood>,
+	<item:minecraft:wheat_seeds>, <item:thermal:rf_coil>, <item:contenttweaker:rf_out_coil>, <item:thermal:redstone_servo>,
+	<item:minecraft:dirt>, <item:minecraft:piston>, <item:thermal:machine_frame>,
+	<item:minecraft:string>, <item:minecraft:feather>,
+	<item:minecraft:bone_meal>, <item:minecraft:tnt>,
+	<item:minecraft:coal>,
+	<item:minecraft:oak_sapling>,
+	<item:minecraft:water_bucket>,
+	<item:minecraft:sugar_cane>,
+	<item:minecraft:brown_mushroom>,
+	<item:minecraft:melon_slice>,
+	<item:minecraft:oak_leaves>,
+	<item:contenttweaker:dried_living_matter>
+]);
+
+<tag:items:crafttweaker:tier1>.addTags([
+	<tag:items:botania:mystical_flowers>, <tag:items:forge:gunpowder>, <tag:items:forge:storage_blocks/gunpowder>,
+	<tag:items:botania:petals>, <tag:items:forge:dyes>, 
+	<tag:items:minecraft:wool>, <tag:items:minecraft:carpets>, 
+	<tag:items:forge:ores/gold>, <tag:items:forge:ores/silver>, <tag:items:forge:ores/niter>, <tag:items:forge:ores/sulfur>, <tag:items:forge:ores/apatite>,
+	<tag:items:forge:ingots/gold>, <tag:items:forge:nuggets/gold>, <tag:items:forge:dusts/gold>, <tag:items:forge:rods/gold>, <tag:items:forge:plates/gold>, <tag:items:forge:gears/gold>, <tag:items:forge:tools/gold>, <tag:items:forge:armor/gold>, <tag:items:forge:coins/gold>, 
+	<tag:items:forge:ingots/silver>, <tag:items:forge:nuggets/silver>, <tag:items:forge:dusts/silver>, <tag:items:forge:rods/silver>, <tag:items:forge:plates/silver>, <tag:items:forge:gears/silver>, <tag:items:forge:coins/silver>,
+	<tag:items:forge:storage_blocks/apatite>, <tag:items:forge:gems/apatite>, <tag:items:forge:dusts/apatite>,
+	<tag:items:forge:gems/niter>, <tag:items:forge:gems/sulfur>, 
+	<tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/silver>, <tag:items:forge:storage_blocks/niter>, <tag:items:forge:storage_blocks/sulfur>, <tag:items:forge:dusts/niter>, <tag:items:forge:dusts/sulfur>
+] as stdlib.List<MCTag<MCItemDefinition>>);
+
+<tag:items:crafttweaker:tier2>.add([
+	<item:botania:rune_water>, <item:botania:ender_air_bottle>, <item:botania:abstruse_platform>, <item:thermal:machine_pulverizer>,
+	<item:botania:mana_tablet>, <item:botania:cobble_rod>, <item:botania:tornado_rod>, <item:thermal:machine_smelter>,
+	<item:botania:mana_diamond_block>, <item:botania:auto_crafting_halo>, <item:botania:avatar>, <item:botania:mana_pylon>,
+	<item:botania:divining_rod>, <item:botania:goddess_charm>, <item:botania:mana_gun>, <item:minecraft:jukebox>, <item:thermal:sawdust_block>,
+	<item:minecraft:blaze_powder>, <item:minecraft:blaze_rod>, <item:thermal:blizz_powder>, <item:thermal:blizz_rod>,
+	<item:thermal:basalz_powder>, <item:thermal:basalz_rod>, <item:thermal:blitz_powder>, <item:thermal:blitz_rod>,
+	<item:thermal:machine_sawmill>, <item:minecraft:brewing_stand>, 
+	<item:minecraft:ender_pearl>, <item:quark:gravisand>, <item:botania:mana_pearl>, <item:botania:spell_cloth>, <item:botania:phantom_ink>,
+    <item:botania:crafting_halo>, <item:botania:runic_altar>, <item:botania:tiny_planet>
+]);
+
+<tag:items:crafttweaker:tier2>.addTags([
+	<tag:items:botania:runes>, <tag:items:forge:ores/diamond>, <tag:items:forge:gears/diamond>, <tag:items:forge:tools/diamond>, <tag:items:forge:gems/mana_diamond>, <tag:items:forge:armor/diamond>, <tag:items:forge:dusts/wood>,
+	<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:gems/diamond>, <tag:items:forge:dusts/diamond>
+] as stdlib.List<MCTag<MCItemDefinition>>);
+
+<tag:items:crafttweaker:tier3>.add([
+	<item:botania:terrasteel_ingot>
+]);
+
+<tag:items:crafttweaker:tier4>.add([
+	<item:contenttweaker:cosmilite_ingot>
+]);
+
+<tag:items:crafttweaker:tier5>.add([
+	<item:create:electron_tube>
+]);
+
+<tag:items:crafttweaker:tier6>.add([
+	<item:create:shadow_steel>
+]);
+
+<tag:items:crafttweaker:tier7>.add([
+	<item:immersiveengineering:capacitor_hv>
+]);
+
+<tag:items:crafttweaker:tier8>.add([
+	<item:immersiveengineering:capacitor_creative>
+]);
+
+
+IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
+    if <tag:items:crafttweaker:tier1>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier1[0]));
+        tooltip.add(("Tier: Early Game" as MCTextComponent).setStyle(new MCStyle().setColor(Tier1[1])));
+    } else if <tag:items:crafttweaker:tier2>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier2[0]));
+        tooltip.add(("Tier: Machines" as MCTextComponent).setStyle(new MCStyle().setColor(Tier2[1])));
+    } else if <tag:items:crafttweaker:tier3>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier3[0]));
+        tooltip.add(("Tier: Terrasteel" as MCTextComponent).setStyle(new MCStyle().setColor(Tier3[1])));
+    } else if <tag:items:crafttweaker:tier4>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier4[0]));
+        tooltip.add(("Tier: Early Part 2" as MCTextComponent).setStyle(new MCStyle().setColor(Tier4[1])));
+    } else if <tag:items:crafttweaker:tier5>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier5[0]));
+        tooltip.add(("Tier: Create Byproducts" as MCTextComponent).setStyle(new MCStyle().setColor(Tier5[1])));
+    } else if <tag:items:crafttweaker:tier6>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier6[0]));
+        tooltip.add(("Tier: Energized Cosmilite" as MCTextComponent).setStyle(new MCStyle().setColor(Tier6[1])));
+    } else if <tag:items:crafttweaker:tier7>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier7[0]));
+        tooltip.add(("Tier: Part 3" as MCTextComponent).setStyle(new MCStyle().setColor(Tier7[1])));
+    } else if <tag:items:crafttweaker:tier8>.asIIngredient().matches(stack) {
+        tooltip[0] = MCTextComponent.createTranslationTextComponent(stack.translationKey).setStyle(tooltip[0].getStyle().setColor(Tier8[0]));
+        tooltip.add(("Tier: Ultimate Ingot" as MCTextComponent).setStyle(new MCStyle().setColor(Tier8[1])));
+    }
+});

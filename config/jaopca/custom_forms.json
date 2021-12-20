@@ -1,0 +1,12 @@
+[
+    {
+        "name": "dust_crystals",
+        "type": "item",
+        "materialTypes": ["dust","ingot"]
+    },
+	{
+        "name": "dirty_dusts",
+        "type": "item",
+        "materialTypes": ["dust","ingot"]
+    }
+]

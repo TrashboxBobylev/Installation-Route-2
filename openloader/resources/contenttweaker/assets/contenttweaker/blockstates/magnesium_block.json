@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "contenttweaker:block/magnesium_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "contenttweaker:block/purified_galena_ore"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+[general]
+	#The alternative names of this material.
+	alternativeNames = []
+	#The byproducts of this material.
+	extras = ["apatite"]
+	#The module blacklist of this material.
+	moduleBlacklist = []
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#The model type of the material.
+	modelType = "dust"
+	#The color of this material.
+	color = 10733794
+
+[create]
+	#The byproduct material to output in Create's crushing.
+	byproduct = "minecraft:cobblestone"
+

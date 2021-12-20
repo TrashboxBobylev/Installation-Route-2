@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "contenttweaker:block/astratite_block"
+    }
+  }
+}

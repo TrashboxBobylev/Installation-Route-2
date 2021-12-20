@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Cobble Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_cobble"
+    },
+    "running": {
+		"block": "installroute:machine/generate_cobble",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

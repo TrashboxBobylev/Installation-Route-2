@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Living Matter Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_matter"
+    },
+    "running": {
+		"block": "installroute:machine/generate_matter",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

@@ -1,0 +1,20 @@
+
+#Client side changes.
+[client]
+	#Displays Minecraft version at the top of screen when in game.
+	oldIngameVersion = false
+	#Gives the classic HUD, removing the hunger bar, and adjusting the position of armor bar.
+	oldHud = true
+	#The maximum distance fog can be toggled to.
+	toggleFogMaxDistance = 16
+	#Removes environmental fog from the Nether Dimension.
+	disableNetherFog = true
+	#Enable custom dimension entry messages. (Vanilla Dimensions)
+	customDimensionMessages = false
+	#Enable the classic menu. (May cause mod compatibility issues when used with other menu mods)
+	enableClassicMenu = false
+	#Disable the 1.9+ combat sounds.
+	disableCombatSounds = false
+	#The height offset of the hearts when using the old HUD.
+	heartHeight = 32
+

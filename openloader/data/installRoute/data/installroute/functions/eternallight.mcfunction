@@ -1,0 +1,14 @@
+time set midnight
+gamerule doDaylightCycle false
+gamerule keepInventory true
+gamerule fallDamage false
+gamerule doTraderSpawning false
+gamerule doImmediateRespawn true
+gamerule doWeatherCycle false
+gamerule disablePortalCreationNether true
+gamerule doSugarGrowthUnlimited true
+gamerule doCactusGrowthUnlimited true
+gamerule doInstantEating true
+gamerule doInstantExp true
+gamerule cactusDamage false
+gamerule pearlDamage false

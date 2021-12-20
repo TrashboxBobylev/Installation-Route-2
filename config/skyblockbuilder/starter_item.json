@@ -1,0 +1,24 @@
+{
+  "items": [
+	{
+		"item": "minecraft:iron_pickaxe"
+	},
+	{
+		"item": "thermal:wrench"
+	},
+	{
+		"item": "minecraft:hopper",
+		"count": 3
+	},
+	{
+		"item": "minecraft:torch",
+		"count": 4
+	},
+	{
+		"item": "botania:twig_wand"	
+	},
+	{
+		"item": "minecraft:chest"
+	}
+  ]
+}

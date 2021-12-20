@@ -1,0 +1,20 @@
+
+#Server and Client side changes.
+[common]
+	#Disables the 1.9+ combat cooldown.
+	disableCombatCooldown = true
+	#Disables hunger, food gives health instead.
+	hungerDisabled = true
+	#Disables sprinting.
+	disableSprinting = false
+	#Allows for instantly shooting bows.
+	originalBow = false
+	#Disables mobs dropping experience. (Disables the experience bar along with it)
+	disableExperienceDrop = false
+	#Disables the ability to stack food items.
+	disableFoodStacking = false
+	#Allows for seeds to drop randomly when tilling dirt.
+	tillSeeds = false
+	#Disables the 1.9+ sweep attack. Only applies when the Sweeping Edge enchantment is not used.
+	disableCombatSweep = false
+

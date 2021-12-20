@@ -1,0 +1,13 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:generator_wood",
+	"time": 60,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:oak_wood",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

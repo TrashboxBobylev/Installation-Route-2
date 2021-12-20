@@ -1,0 +1,13 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:generator_lead",
+	"time": 230,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "contenttweaker:galena_ore",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Wood Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_wood"
+    },
+    "running": {
+		"block": "installroute:machine/generate_wood",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Chalcocite Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_copper"
+    },
+    "running": {
+		"block": "installroute:machine/generate_copper",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

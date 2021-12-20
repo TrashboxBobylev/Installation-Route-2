@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "id": "output",
+      "mode": "output",
+      "type": "custommachinery:item"
+    }
+  ],
+  "name": {
+    "text": "Galena Generator"
+  },
+  "appearance": {
+    "idle": {
+      "block": "installroute:machine/generate_lead"
+    },
+    "running": {
+		"block": "installroute:machine/generate_lead",
+		"lightLevel": 15
+	},
+    "paused": {},
+    "errored": {}
+  }
+}

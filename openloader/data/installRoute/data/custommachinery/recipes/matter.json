@@ -1,0 +1,13 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:generator_matter",
+	"time": 90,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "contenttweaker:living_matter",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

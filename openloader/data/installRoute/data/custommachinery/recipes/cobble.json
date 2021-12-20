@@ -1,0 +1,13 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:generator_cobble",
+	"time": 30,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:cobblestone",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}
