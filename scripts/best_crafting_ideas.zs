@@ -1,3 +1,7 @@
+import mods.jei.JEI;
+import mods.jei.category.JeiCategory;
+import crafttweaker.api.util.text.MCTextComponent;
+
 craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 
 craftingTable.addShaped("advanced_table", <item:extendedcrafting:advanced_table>, [
@@ -37,3 +41,26 @@ mods.extendedcrafting.TableCrafting.addShaped("e9x9/cosmilite", 0, <item:customm
 	[<item:botania:dark_quartz>, <item:botania:dreamwood>, <item:botania:dreamwood>, <item:botania:mana_pearl>, <item:botania:rune_envy>, <item:botania:mana_pearl>, <item:botania:dreamwood>, <item:botania:dreamwood>, <item:botania:dark_quartz>], 
 	[<item:botania:dark_quartz>, <item:botania:dark_quartz>, <item:jaopca:storage_blocks.prismarine>, <item:minecraft:gold_block>, <item:botania:dragonstone_block>, <item:minecraft:gold_block>, <item:jaopca:storage_blocks.prismarine>, <item:botania:dark_quartz>, <item:botania:dark_quartz>]
 ]);
+
+<tag:items:installroute:shovels>.add([<item:minecraft:wooden_shovel>, <item:minecraft:stone_shovel>, <item:minecraft:iron_shovel>, <item:minecraft:golden_shovel>, <item:minecraft:diamond_shovel>, <item:botania:manasteel_shovel>, <item:botania:elementium_shovel>, <item:immersiveengineering:shovel_steel>, <item:thermal:flux_drill>]);
+
+var cat = JeiCategory.create<mods.jei.category.SimpleInputOutput>(
+    "shovel",
+    MCTextComponent.createTranslationTextComponent("jei.installroute.shovel"),
+    <item:minecraft:stone_shovel>,
+    <tag:items:installroute:shovels>
+);
+cat.addRecipe([<item:minecraft:gravel>], [<item:minecraft:cobblestone>]);
+cat.addRecipe([<item:minecraft:sand>], [<item:minecraft:stone>]);
+
+JEI.addCategory(cat);
+
+var cat2 = JeiCategory.create<mods.jei.category.SimpleInputOutput>(
+    "ender_air",
+    MCTextComponent.createTranslationTextComponent("jei.installroute.end_air"),
+    <item:botania:ender_air_bottle>,
+    [<item:botania:ender_air_bottle>]
+);
+cat2.addRecipe([<item:minecraft:end_stone>.withTag({display: {Lore: ["{\"translate\":\"jei.installroute.end_stone\",\"color\":\"white\",\"italic\":false}" as string]}})], [<item:minecraft:stone>]);
+
+JEI.addCategory(cat2);

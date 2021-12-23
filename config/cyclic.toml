@@ -139,7 +139,7 @@
 			peat_farm = 500
 			#Power per use crafter
 			#Range: 0 ~ 64000
-			crafter = 50
+			crafter = 350
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10

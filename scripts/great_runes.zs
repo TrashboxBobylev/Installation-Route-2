@@ -57,7 +57,7 @@ craftingTable.addShaped("leaves_from_matter", <item:minecraft:oak_leaves>*50, [
 ]);
 
 craftingTable.addShaped("milk_white", <item:minecraft:milk_bucket>, [
-	[<item:minecraft:bone_block>, <item:minecraft:water_bucket>, <item:minecraft:bone_block>]
+	[<item:minecraft:bone_block>, <item:minecraft:water_bucket>.transformReplace(<item:minecraft:air>), <item:minecraft:bone_block>]
 ]);
 
 craftingTable.addShaped("eggs_from_porfirevich", <item:minecraft:egg>*3, [
@@ -65,4 +65,6 @@ craftingTable.addShaped("eggs_from_porfirevich", <item:minecraft:egg>*3, [
 	[<tag:items:minecraft:planks>, <item:minecraft:hay_block>, <tag:items:minecraft:planks>],
 	[<tag:items:forge:sand>, <item:minecraft:paper>, <tag:items:forge:sand>]
 ]);
+
+
 

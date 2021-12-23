@@ -1,0 +1,17 @@
+{
+  "name": "Liquid Mana Generation",
+  "category": "botania:generating_flowers",
+  "icon": "manaliquidizer:mana_liquidizer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Some experienced botanists might find themselves not satisfied with default good old flora. That's how they came up with mana liquidizer.$(br2)This fancy device can generate mana out of special mana liquid inside: just plug a spreader to it, fill the buffer with liquid and point spreader to mana storage; liquidizer will convert mana liquid into ephemeral mana automatically."
+    },
+    {
+      "type": "crafting",
+      "recipe": "manaliquidizer:mana_liquidizer",
+	  "text": "There is various ways to generate mana fluid, check the JEI."
+    }
+  ],
+  "priority": true
+}

@@ -1,3 +1,9 @@
+import crafttweaker.api.util.text.MCTextComponent;
+
+<item:minecraft:gravel>.addTooltip(new MCTextComponent().createStringTextComponent("Can be obtained by breaking cobblestone with shovel."));
+<item:minecraft:sand>.addTooltip(new MCTextComponent().createStringTextComponent("Can be obtained by breaking stone with shovel."));
+<item:botania:ender_air_bottle>.addTooltip(new MCTextComponent().createStringTextComponent("Can be thrown at stone to get end stone."));
+
 craftingTable.addShaped("catalyst_coil", <item:contenttweaker:rf_out_coil>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:dusts/redstone>],
 	[<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>],

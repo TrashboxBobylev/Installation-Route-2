@@ -166,7 +166,7 @@ Replacer.forOutput(<item:thermal:machine_refinery>, craftingTable).replaceFully(
 <recipetype:thermal:centrifuge>.addRecipe("centrifuge/galena", [<item:thermal:lead_dust> % 500, <item:thermal:silver_dust> %100], <fluid:minecraft:empty>, <item:contenttweaker:galena_dust>*6, 10000);
 <recipetype:thermal:centrifuge>.addRecipe("centrifuge/sheldonite", [<item:thermal:nickel_dust> % 300, <item:thermal:apatite> % 300], <fluid:minecraft:empty>, <item:contenttweaker:sheldonite_dust>*6, 10000);
 
-furnace.addRecipe("furnace/heated_water", <item:contenttweaker:heated_water_bucket>, <item:minecraft:water_bucket>, 0.0, 200);
+furnace.addRecipe("furnace/heated_water", <item:contenttweaker:heated_water_bucket>, <item:minecraft:water_bucket>.transformReplace(<item:minecraft:air>), 0.0, 200);
 
 <recipetype:thermal:bottler>.addRecipe("bottler/magnetite", <item:minecraft:magma_block>, <item:minecraft:stone>, <fluid:minecraft:lava> *500, 500);
 

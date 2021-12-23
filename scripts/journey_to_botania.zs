@@ -88,14 +88,13 @@ craftingTable.addShaped("ender_pearl_from_air", <item:minecraft:ender_pearl>*2, 
 <recipetype:botania:terra_plate>.removeRecipe(<item:botania:terrasteel_ingot>);
 <recipetype:botania:terra_plate>.addRecipe("terra_plate/terrasteel_ingot", <item:botania:terrasteel_ingot>, 30000, <item:botania:manasteel_ingot>, <item:botania:cell_block>, <item:minecraft:clay>, <item:botania:lime_petal>, <item:minecraft:sugar_cane>, <item:minecraft:gunpowder>, <item:minecraft:slime_ball>, <item:minecraft:emerald>, <item:thermal:rich_slag>);
 
-<recipetype:botania:runic_altar>.removeRecipe(<item:botania:rune_wrath>);
-<recipetype:botania:runic_altar>.addRecipe("rune_altar_test", <item:minecraft:diamond>, 200, <item:minecraft:dirt>, <item:minecraft:apple>);
-
 <recipetype:thermal:refinery>.addRecipe("refinery/heat_to_mana", <item:minecraft:air>, [<fluid:manaliquidizer:mana_fluid> * 2400], <fluid:contenttweaker:heated_water>*1000, 1000);
 <recipetype:thermal:refinery>.addRecipe("refinery/blood_to_mana", <item:minecraft:air>, [<fluid:manaliquidizer:mana_fluid> * 6000], <fluid:contenttweaker:blood>*500, 5000);
 <recipetype:thermal:refinery>.addRecipe("refinery/warp_to_mana", <item:minecraft:air>, [<fluid:manaliquidizer:mana_fluid> * 3000], <fluid:contenttweaker:warp>*500, 2000);
 <recipetype:thermal:refinery>.addRecipe("refinery/redstone_to_mana", <item:minecraft:air>, [<fluid:manaliquidizer:mana_fluid> * 2000], <fluid:thermal:redstone>*100, 2000);
+<recipetype:thermal:refinery>.addRecipe("refinery/sap_to_mana", <item:minecraft:air>, [<fluid:manaliquidizer:mana_fluid> * 4000], <fluid:thermal:sap>*1000, 1000);
 <recipetype:thermal:pyrolyzer>.addRecipe("pyrolyzer/frost_to_mana", [<item:minecraft:wither_rose> % 7], <fluid:manaliquidizer:mana_fluid> * 3000, <item:thermal:frost_melon_slice>, 5500);
 
 
 JEI.addDescription(<fluid:manaliquidizer:mana_fluid>*1000, [new MCTextComponent().createStringTextComponent("2 mB is equal to 1 mana.")]);
+<recipetype:thermal:refinery>.addRecipe("refinery/faster_heated_water", <item:minecraft:air>, [<fluid:contenttweaker:heated_water> * 50], <fluid:minecraft:water>*125, 20);

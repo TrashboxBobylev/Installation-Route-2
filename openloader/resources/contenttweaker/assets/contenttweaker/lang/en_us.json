@@ -56,5 +56,9 @@
   "fluid.contenttweaker.warp": "Warped Essence",
   "item.contenttweaker.warp_bucket": "Bucket of Warped Essence",
   "fluid.contenttweaker.heated_water": "Heated Water",
-  "item.contenttweaker.heated_water_bucket": "Bucket of Heated Water"
+  "item.contenttweaker.heated_water_bucket": "Bucket of Heated Water",
+  
+  "jei.installroute.shovel": "Breaking with Shovel",
+  "jei.installroute.end_air": "Throwing Ender Air into Blocks",
+  "jei.installroute.end_stone": "Up to 4x4x4 cube from single bottle"
 }

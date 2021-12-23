@@ -160,13 +160,6 @@ craftingTable.addShaped("cyclic_wireless_transmitter", <item:cyclic:wireless_tra
 craftingTable.removeRecipe(<item:cyclic:crate>);
 <recipetype:thermal:smelter>.addRecipe("smelter/crate", [<item:cyclic:crate> % -100], [<tag:items:forge:chests>*2, <item:contenttweaker:astratite>], 0, 4000);
 
-craftingTable.removeRecipe(<item:cyclic:clock>);
-craftingTable.addShaped("cyclic_clock", <item:cyclic:clock>*2, [
-	[<item:minecraft:air>, <item:immersiveengineering:wirecoil_redstone>, <item:minecraft:air>], 
-	[<item:contenttweaker:astratite>, <item:gates:advanced_redstone_clock>, <item:contenttweaker:astratite>], 
-	[<tag:items:forge:gears/tin>, <item:thermal:redstone_servo>, <tag:items:forge:gears/tin>]
-]);
-
 craftingTable.removeRecipe(<item:cyclic:detector_entity>);
 <recipetype:botania:mana_infusion>.addRecipe("alchemy/entity_detector", <item:cyclic:detector_entity>, <item:botania:forest_eye>, 4000, <block:botania:alchemy_catalyst>);
 craftingTable.removeRecipe(<item:cyclic:detector_item>);
